@@ -213,7 +213,7 @@ namespace NzbDrone.Core.MetadataSource.SkyHook
                 case "male":
                     return Gender.Male;
                 default:
-                    return Gender.Other;
+                    return Gender.Female;
             }
         }
 
